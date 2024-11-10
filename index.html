@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow Puzzle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Shadow Puzzle Game</h1>
+        <p>Align the shadows to form the correct pattern on the wall.</p>
+        <div class="game-board">
+            <div class="shadow-wall">
+                <div class="shadow" id="shadow1"></div>
+                <div class="shadow" id="shadow2"></div>
+                <div class="shadow" id="shadow3"></div>
+            </div>
+            <div class="objects">
+                <div class="object" id="object1">Object 1</div>
+                <div class="object" id="object2">Object 2</div>
+                <div class="object" id="object3">Object 3</div>
+            </div>
+        </div>
+        <button id="checkSolution">Check Solution</button>
+        <div id="message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
